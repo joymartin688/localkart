@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>LocalKart · Daily needs from the street vendors near you</title>
+<meta name="description" content="Milk, vegetables, flowers and daily needs from the street vendors and small shops near you, often ready in about 15 minutes. Compare prices, keep a daily basket, and order for pickup. Vendors get a simple Tamil-first app.">
+<meta name="theme-color" content="#1e7a4e">
+<meta name="color-scheme" content="light dark">
+<meta property="og:type" content="website">
+<meta property="og:title" content="LocalKart · Daily needs from the street vendors near you">
+<meta property="og:description" content="Compare today's price at every cart nearby, see how soon you can have it, and pick it up on your way. A hackathon prototype for Mylapore, Chennai.">
+<meta name="twitter:card" content="summary">
+<link rel="icon" href="icons/icon.svg" type="image/svg+xml">
+<link rel="apple-touch-icon" href="icons/apple-touch-icon.png">
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-title" content="LocalKart">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<!-- Fonts load without holding up the first paint; system fonts show until they arrive. -->
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Baloo+Thambi+2:wght@500;600;700&family=Hind+Madurai:wght@400;500;600;700&family=Kalam:wght@700&display=swap" media="print" onload="this.media='all'">
+<noscript><link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Baloo+Thambi+2:wght@500;600;700&family=Hind+Madurai:wght@400;500;600;700&family=Kalam:wght@700&display=swap"></noscript>
+<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+<a class="skip" href="#stage">Skip to content</a>
+<header class="topbar" id="bar"></header>
+<main id="stage" class="stage landing" tabindex="-1"></main>
+<div id="dialog"></div>
+<div id="gtoast" class="toast" role="status" aria-live="polite"></div>
+<noscript><p class="nojs">LocalKart needs JavaScript to run. Please turn it on and reload.</p></noscript>
+
+<!-- Plain scripts, no build step. Order matters: data first, screens after. -->
+<script src="js/seed.js" defer></script>
+<script src="js/store.js" defer></script>
+<script src="js/i18n.js" defer></script>
+<script src="js/ui.js" defer></script>
+<script src="js/art.js" defer></script>
+<script src="js/value.js" defer></script>
+<script src="js/market.js" defer></script>
+<script src="js/invoice.js" defer></script>
+<script src="js/smart.js" defer></script>
+<script src="js/customer.js" defer></script>
+<script src="js/vendor.js" defer></script>
+<script src="js/app.js" defer></script>
+</body>
+</html>

@@ -1,0 +1,17 @@
+{
+  "name": "LocalKart · Street vendors near you",
+  "short_name": "LocalKart",
+  "description": "Daily needs from the street vendors and small shops near you, often ready in about 15 minutes.",
+  "start_url": "./",
+  "scope": "./",
+  "display": "standalone",
+  "background_color": "#1e7a4e",
+  "theme_color": "#1e7a4e",
+  "lang": "en",
+  "icons": [
+    { "src": "icons/icon-192.png", "sizes": "192x192", "type": "image/png" },
+    { "src": "icons/icon-512.png", "sizes": "512x512", "type": "image/png" },
+    { "src": "icons/maskable-512.png", "sizes": "512x512", "type": "image/png", "purpose": "maskable" },
+    { "src": "icons/icon.svg", "sizes": "any", "type": "image/svg+xml" }
+  ]
+}
