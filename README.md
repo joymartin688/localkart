@@ -6,11 +6,10 @@ Built for the **E-commerce and Digital Ecosystems** track.
 
 | | |
 |---|---|
-| **Live demo** | `https://<your-github-username>.github.io/localkart/` (enable GitHub Pages, see below) |
-| **Demo video** | `<YouTube or Drive link>` |
-| **Slides** | [`docs/LocalKart-slides.pdf`](docs/LocalKart-slides.pdf) (add the PDF) |
-| **Team** | `<Name 1>`, `<Name 2>` |
-
+| **Live demo** | https://joymartin688.github.io/localkart/ |
+| **Demo video** | Coming soon |
+| **Slides** | Coming soon |
+| **Team** | A Martin Joy , Kumaresan M , P Prajan , Karthick S M |
 ![Landing page](docs/screenshots/landing.png)
 
 ---
